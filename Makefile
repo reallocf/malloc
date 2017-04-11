@@ -1,7 +1,9 @@
 NAME =			libft_malloc_$HOSTTYPE
 CC =			gcc
 
-SRC = 			main.c #testing
+#TESTING
+SRC = 			main.c \
+			malloc.c
 
 SRC_DIR =		./srcs/
 BUILD_DIR =		./build/
